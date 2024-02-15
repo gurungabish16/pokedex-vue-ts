@@ -1,0 +1,18 @@
+.home-view-container {
+    padding: 20px;
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .filter-action-wrapper {
+            display: flex;
+            gap: 10px;
+        }
+    }
+    .card-container {
+        .card-wrapper {
+            display: inline-block;
+            padding: 20px;
+        }
+    }
+}

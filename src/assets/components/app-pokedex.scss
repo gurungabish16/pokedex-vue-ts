@@ -1,0 +1,101 @@
+.pokedex-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: max-content;
+    display: flex;
+    gap: 8px;
+    height: 450px;
+    align-items: center;
+    box-shadow: 10px 10px 5px #96e3bf;
+    margin: 0 auto;
+
+    .pokedex-basic {
+        padding: 10px 20px;
+
+
+        h4 {
+            text-transform: uppercase;
+        }
+
+        .image-wrapper {
+            img {
+                height: 170px;
+            }
+        }
+        .pokemon-type-wrapper {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .profile-content {
+            padding: 10px 0;
+            label {
+                font-weight: 500;
+                // margin-bottom: 4px;
+            }
+            div {
+                text-transform: capitalize;
+            }
+        }
+    }
+    .pokedex-detail {
+        padding: 10px 20px;
+        width: 350px;
+        overflow: auto;
+        height: 100%;
+        margin-bottom: 12px;
+
+        .stats-wrapper {
+            ul {
+                padding: 0;
+                list-style-type: none;
+                li {
+                    margin-bottom: 8px;
+                    font-size: 16px;
+                }
+            }
+        }
+        .attack-wrapper {
+            h4 {
+                text-transform: capitalize;
+            }
+            ul {
+                padding: 0;
+                list-style-type: none;
+                li {
+                    margin-right: 8px;
+                    margin-bottom: 4px;
+                    font-size: 16px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .divider {
+        position: relative;
+        height: 90%;
+        width: 1px;
+        background-color: #ccc;
+        margin: auto;
+    }
+
+    .pokedex-bg {
+        background: url('./images/pokedex-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+.pokedex-detail::-webkit-scrollbar {
+    width: 0.25em;
+}
+   
+.pokedex-detail::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+.pokedex-detail::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+  

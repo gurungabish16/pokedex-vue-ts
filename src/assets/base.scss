@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+.pokemon-default-bg {
+  background-color: #6c757d!important;
+}
+.pokemon-grass-bg {
+  background-color: #baedcc!important;
+  color: #000;
+}
+.pokemon-poison-bg {
+  background-color: #d891e7!important;
+}
+.pokemon-fire-bg {
+  background-color: #e79d84!important;
+}
+.pokemon-flying-bg {
+  background-color: #86b7fe!important;
+}
+.pokemon-water-bg {
+  background-color: #abddf7!important;
+  color: #000;
+}
+.app-text-uppercase {
+  text-transform: uppercase!important;
+}
