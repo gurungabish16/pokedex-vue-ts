@@ -8,7 +8,7 @@ import PokemonCard from '@/components/PokemonCard.vue'
 
 const filterText: Ref<string> = ref('');
 const pokemonListParam: PokemonListParam = {
-  limit: 15,
+  limit: 100000,
   offset: 0
 }
 
